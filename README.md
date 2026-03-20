@@ -92,15 +92,6 @@ credit-scoring-frontend/
 └── README.md
 ```
 
-## Instalación del proyecto frontend
-
-```bash
-git clone <URL_DEL_REPOSITORIO>
-cd credit-scoring-frontend
-npm install
-```
-
-Crea el archivo `.env` tomando como base `.env.example`:
 
 ```env
 VITE_API_BASE_URL=http://localhost:8000
@@ -120,9 +111,8 @@ http://localhost:8080
 
 > Se configuró el frontend en el puerto **8080** porque el backend analizado permite CORS para `http://localhost:8080`.
 
-## Cómo levantar el backend según el proyecto revisado
 
-### Opción 1: ejecución local con Uvicorn
+ejecución local con Uvicorn
 
 Ubícate en `python/credit_scoring/` y ejecuta:
 
@@ -130,7 +120,7 @@ Ubícate en `python/credit_scoring/` y ejecuta:
 uvicorn src.server.app:app --reload --host 0.0.0.0 --port 8000
 ```
 
-### Opción 2: flujo mostrado en el video con Docker
+flujo mostrado en el video con Docker
 
 Desde la carpeta `python/credit_scoring/`:
 
@@ -139,19 +129,11 @@ docker build -t credit_scoring_service .
 docker run -d -p 8000:8000 --name credit-scoring-service credit_scoring_service
 ```
 
-Luego abre:
 
 ```text
 http://localhost:8000/docs
 ```
 
-## Ejemplo de uso
-
-1. Levanta primero el backend.
-2. Ejecuta el frontend con `npm run dev`.
-3. Ingresa o carga el ejemplo del video.
-4. Presiona **Evaluar solicitud**.
-5. Observa el resultado de predicción y probabilidad.
 
 ## Buenas prácticas aplicadas
 
@@ -163,28 +145,13 @@ http://localhost:8000/docs
 - Interfaz responsive
 - Manejo visual de errores y estados de carga
 
-## Recomendación para el repositorio Git
-
-Sube este frontend en un repositorio con commits claros, por ejemplo:
-
-```bash
-git init
-git add .
-git commit -m "feat: estructura inicial del frontend credit scoring"
-git commit -m "feat: integración con endpoint mlp_demo"
-git commit -m "style: mejora visual y manejo de estados"
-```
 
 ## Integrantes del grupo
 
-Completar con los nombres reales:
-
-- Integrante 1
-- Integrante 2
-- Integrante 3
+- Julian Esteban Ballesteros Ortiz
+- Juan Diego Walteros Cortes
 
 ## URL de la API utilizada
 
 - Local: `http://localhost:8000/mlp_demo`
 - Swagger: `http://localhost:8000/docs`
-- Producción: `https://TU-SERVICIO/mlp_demo`
