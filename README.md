@@ -155,3 +155,13 @@ http://localhost:8000/docs
 
 - Local: `http://localhost:8000/mlp_demo`
 - Swagger: `http://localhost:8000/docs`
+
+## Evidencias
+
+<img width="1249" height="407" alt="image" src="https://github.com/user-attachments/assets/a5dcb711-8dfa-4503-acc7-d35a81460be8" />
+
+<img width="594" height="584" alt="image" src="https://github.com/user-attachments/assets/0c6e2c8a-b125-4993-8f1b-f2173766e1d0" />
+
+<img width="377" height="371" alt="image" src="https://github.com/user-attachments/assets/528d6e6f-c804-4063-865e-c211385e045b" />
+
+<img width="971" height="607" alt="image" src="https://github.com/user-attachments/assets/d6c398a2-f0f9-405b-854e-090d0c9f5b80" />
