@@ -134,18 +134,6 @@ docker run -d -p 8000:8000 --name credit-scoring-service credit_scoring_service
 http://localhost:8000/docs
 ```
 
-
-## Buenas prácticas aplicadas
-
-- Componentes reutilizables
-- Separación de responsabilidades
-- Servicio dedicado para consumo HTTP
-- Variables de entorno para la URL del backend
-- Código limpio y legible
-- Interfaz responsive
-- Manejo visual de errores y estados de carga
-
-
 ## Integrantes del grupo
 
 - Julian Esteban Ballesteros Ortiz
@@ -165,3 +153,11 @@ http://localhost:8000/docs
 <img width="377" height="371" alt="image" src="https://github.com/user-attachments/assets/528d6e6f-c804-4063-865e-c211385e045b" />
 
 <img width="971" height="607" alt="image" src="https://github.com/user-attachments/assets/d6c398a2-f0f9-405b-854e-090d0c9f5b80" />
+
+ENDPOINT /MLP_DEMO
+
+<img width="1186" height="615" alt="image" src="https://github.com/user-attachments/assets/69a59a8a-da3d-46d7-af82-0d618fd3ba6b" />
+
+<img width="1134" height="534" alt="image" src="https://github.com/user-attachments/assets/53debd26-ca18-4a81-b5a8-d40e9b2898c7" />
+
+<img width="1131" height="604" alt="image" src="https://github.com/user-attachments/assets/623fed2f-c60b-4c38-8d68-8cee3411cd35" />
